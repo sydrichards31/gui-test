@@ -9,7 +9,6 @@ To clone the project locally and install dependencies:
 ```bash
 git clone https://github.com/sydrichards31/gui-test.git
 cd gui-test
-npm install express
 cd client
 npm install
 ```
@@ -27,4 +26,4 @@ To run the client side front end of the application:
 
 This will open the frontend React App on localhost:3000.
 
-After all of the fields are complete, the submit button will become enabled and the user input will be written to a file called "output.json" in the server folder of the application.
+After all of the fields are complete, the submit button will become enabled and the user input will be written to a file called "output.json" in the root folder of the application.
