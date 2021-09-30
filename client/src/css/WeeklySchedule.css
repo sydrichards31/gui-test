@@ -1,0 +1,66 @@
+.tableWrapper {
+    display: flex;
+}
+
+.fromTo {
+    display: flex;
+    padding-left: 150px;
+    margin-bottom: 0px;
+    font-family: 'Annie Use Your Telescope', cursive;
+}
+
+.headLabel {
+    font-size: 17px;
+    color: black;
+}
+
+.double {
+    text-align: center;
+    font-size: 14px;
+    width: 14px;
+}
+.single {
+    text-align: center;
+    font-size: 14px;
+    width: 14px;
+}
+
+#schedule {
+    border: 2px solid black;
+    border-collapse: collapse;
+    table-layout: inherit;
+    padding: 0px;
+} 
+
+#schedule td {
+    padding-left: 10px;
+    font-size: 12px;
+}
+
+#selector {
+    margin: 0px;
+    border-collapse: collapse;
+}
+
+#selector body{
+    margin: 0px;
+}
+
+#selector td {
+    border: none;
+}
+
+.arrowRow {
+    border: 2px solid black;
+    width: 100%;
+    text-align: 02;
+}
+
+.upIcon {
+    padding-right: 9px;
+    padding-top: 2px;
+}
+.downIcon {
+    padding-right: 9px;
+    padding-top: 5px;
+}
